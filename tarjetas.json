@@ -1,0 +1,416 @@
+[
+    {
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Marcar con un tic y cambiar el color de las opciones seleccionadas",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-1.png"
+    },
+    {
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Indicador de progreso para que el usuario sepa que el sistema sigue funcionando",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Manipular directamente el orden de las canciones en una lista de reproducción",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-3.gif"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Mostrar el mensaje 'Pocas unidades' al pasar el ratón por una talla",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Mostrar las tallas agotadas tachadas y con un color más apagado",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Una barra superior indicando cuánto dinero queda para conseguir gastos de envío gratis",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-5.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Seguir mostrando los artículos agotados de la lista de deseos, señalizándolos como tal",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-6.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Cuando pulsas el botón para llamar al ascensor, se ilumina",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-7.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Encima del ascensor se indica por qué piso va",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-8.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "Barra superior del móvil indicando nivel de señal Wi-Fi, batería, etc.",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-9.png"
+    },
+    { 
+        "heuristica": 1,
+        "esBuenEjemplo": true,
+        "texto" : "En un videojuego se indica permanentemente el estado de salud con corazones",
+        "imagen" : "images/tarjetas/heuristica-1-buen-ejemplo-10.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "La web de un hospital usa lenguaje sencillo para describir los tipos de atención médica",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "La interfaz de una brújula digital imita el aspecto de una brújula real",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "Los botones de volumen de los auriculares están colocados de forma análoga al resultado: arriba el de subir y abajo el de bajar",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "Seleccionar texto en una web de artículos simula el subrayar con rotulador fosforito sobre papel",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "Pasar página en un libro electrónico con un gesto parecido a pasar página en un libro real",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-5.gif"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "Marcar como favorita una página de un libro electrónico se señaliza simulando una esquina de papel doblada",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-6.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "Las armas de un juego se corresponden a armas reales",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-7.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "En una app de colorear para niños, la acción de deshacer sigue el modelo mental de un cuaderno de colorear (una goma de borrar)",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-8.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": true,
+        "texto" : "En un juego de cocinar para niños, se pone la pasta en la olla arrastrándola y se se cocina haciendo clic en el fogón",
+        "imagen" : "images/tarjetas/heuristica-2-buen-ejemplo-9.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": false,
+        "texto" : "Una web sobre software legal usa lenguaje enrevesado, excesivamente técnico",
+        "imagen" : "images/tarjetas/heuristica-2-mal-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": false,
+        "texto" : "La forma de pasar imágenes en una galería no es estándar ni simula la vida real. Los botones son semicírculos grises no parecen flechas",
+        "imagen" : "images/tarjetas/heuristica-2-mal-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 2,
+        "esBuenEjemplo": false,
+        "texto" : "La web de una oficina de aduanas tiene notificaciones complejas y difíciles de entender en la página principal",
+        "imagen" : "images/tarjetas/heuristica-2-mal-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 3,
+        "esBuenEjemplo": true,
+        "texto" : "Los navegadores tienen un botón para volver a la página anterior",
+        "imagen" : "images/tarjetas/heuristica-3-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 3,
+        "esBuenEjemplo": true,
+        "texto" : "Un proceso de creación con un botón para cancelarlo en cualquier momento",
+        "imagen" : "images/tarjetas/heuristica-3-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 3,
+        "esBuenEjemplo": true,
+        "texto" : "Un juego de ajedrez que permite deshacer el último movimiento",
+        "imagen" : "images/tarjetas/heuristica-3-buen-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 4,
+        "esBuenEjemplo": true,
+        "texto" : "Un videojuego sigue la convención en Xbox de usar el botón A para saltar",
+        "imagen" : "images/tarjetas/heuristica-4-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 4,
+        "esBuenEjemplo": true,
+        "texto" : "Amazon sigue la convención en comercios electrónicos de poner el carrito en la esquina superior derecha",
+        "imagen" : "images/tarjetas/heuristica-4-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 4,
+        "esBuenEjemplo": false,
+        "texto" : "Un videojuego no sigue la convención en Xbox de usar el botón A para saltar",
+        "imagen" : "images/tarjetas/heuristica-4-mal-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 4,
+        "esBuenEjemplo": false,
+        "texto" : "Un título estático utiliza el mismo estilo (fondo amarillo) usado en el resto de la web solo para elementos accionables (botones, enlaces...)",
+        "imagen" : "images/tarjetas/heuristica-4-mal-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Diálogo de confirmación antes de salir de un juego",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Un selector de fechas de ida y vuelta que imposibilita escoger una fecha de vuelta anterior a la de ida",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Para evitar que los usuarios se equivoquen al teclear una palabra difícil, Amazon muestra sugerencias de búsqueda clicables conforme tecleas un término de búsqueda",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Al poner un recordatorio en una app de notas, las fechas por defecto son las opciones más comunes",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Conforme tecleas un número de teléfono, los números se separan en el formato adecuado para que te sea más fácil comprobar que es correcto",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-5.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Como en iOS cambiar el zoom requiere reiniciar el móvil (una acción muy costosa), se muestra una previsualización del cambio",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-6.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Al intentar borrar unas fotos, el diálogo de confirmación indica el número de fotos que se borrarían y tiene un botón con la palabra \"Borrar\", más clara que \"Aceptar\"",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-7.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Gmail muestra un diálogo para deshacer la acción después de realizar cualquier acción destructiva, como borrar un correo",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-8.png"
+    },
+    { 
+        "heuristica": 5,
+        "esBuenEjemplo": true,
+        "texto" : "Twitter te avisa de cuántos caracteres te quedan antes de que te pases",
+        "imagen" : "images/tarjetas/heuristica-5-buen-ejemplo-9.png"
+    },
+    { 
+        "heuristica": 6,
+        "esBuenEjemplo": true,
+        "texto" : "Para que los usuarios no tengan que recordar el nombre completo de un producto, Amazon muestra sugerencias de búsqueda clicables conforme tecleas un término de búsqueda",
+        "imagen" : "images/tarjetas/heuristica-6-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 6,
+        "esBuenEjemplo": true,
+        "texto" : "Un juego muestra permanentemente los controles contextuales en una esquina de la pantalla",
+        "imagen" : "images/tarjetas/heuristica-6-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 6,
+        "esBuenEjemplo": true,
+        "texto" : "Google muestra el historial de búsquedas al hacer clic en la barra de búsqueda",
+        "imagen" : "images/tarjetas/heuristica-6-buen-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 6,
+        "esBuenEjemplo": true,
+        "texto" : "Amazon personaliza la página principal con los últimos artículos vistos por el usuario",
+        "imagen" : "images/tarjetas/heuristica-6-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 6,
+        "esBuenEjemplo": true,
+        "texto" : "Windows XP mostraba los últimos programas usados en el menú de inicio",
+        "imagen" : "images/tarjetas/heuristica-6-buen-ejemplo-5.png"
+    },
+    { 
+        "heuristica": 6,
+        "esBuenEjemplo": false,
+        "texto" : "El menú de una app de correo electrónico tiene iconos difíciles de asociar a su función",
+        "imagen" : "images/tarjetas/heuristica-6-mal-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "En el juego Counter Strike se puede habilitar el cambio rápido entre armas con las teclas 1, 2, 3 y 4",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "En Instagram se puede dar un \"me gusta\" más rápido haciendo doble \"tap\" en la foto",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-2.gif"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "Acceso directo a acciones comunes manteniendo pulsado un elemento, en lugar de tener que navegar a su vista detallada",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "Los programas de Mac muestran los atajos de teclado junto a cada opción del menú",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "Gmail muestra los atajos de teclado al mantener el ratón encima de cada icono",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-5.png"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "Cuando el usuario intenta deshacer, se le avisa de un atajo gestual para deshacer",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-6.png"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "Trello incluye un botón en el menú superior para acceder a su herramienta de automatización",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-7.png"
+    },
+    { 
+        "heuristica": 7,
+        "esBuenEjemplo": true,
+        "texto" : "Al acceder al menú de ayuda, Slack muestra una opción para ver atajos de teclado",
+        "imagen" : "images/tarjetas/heuristica-7-buen-ejemplo-8.png"
+    },
+    { 
+        "heuristica": 8,
+        "esBuenEjemplo": true,
+        "texto" : "Mario Kart 8 Deluxe tiene una pantalla de juego minimalista (solo muestra la información pertinente), pero estéticamente agradable",
+        "imagen" : "images/tarjetas/heuristica-8-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": true,
+        "texto" : "Un juego de móvil muestra un mensaje de error informativo al intentar realizar una acción no disponible",
+        "imagen" : "images/tarjetas/heuristica-9-buen-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": true,
+        "texto" : "El autocorrector de Google ayuda a que los niños encuentren lo que buscan aunque cometan errores de ortografía",
+        "imagen" : "images/tarjetas/heuristica-9-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": true,
+        "texto" : "Si te pasas del número máximo de caracteres, Twitter subraya en rojo los que sobran e indica el número con un signo negativo",
+        "imagen" : "images/tarjetas/heuristica-9-buen-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": true,
+        "texto" : "Al cometer un error en un formulario, se indica visualmente que hay un error y se explica el problema en un mensaje de error",
+        "imagen" : "images/tarjetas/heuristica-9-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": true,
+        "texto" : "Una página de error 404 explica qué ha ocurrido y qué se puede hacer a continuación",
+        "imagen" : "images/tarjetas/heuristica-9-buen-ejemplo-5.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": true,
+        "texto" : "Cuando una búsqueda en una web de vuelos no produce ningún resultado, se explica el error y se muestran botones para eliminar algunos filtros de búsqueda",
+        "imagen" : "images/tarjetas/heuristica-9-buen-ejemplo-6.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": true,
+        "texto" : "Al enviar un correo electrónico, Gmail muestra un menú flotante para cancelar rápidamente su envío",
+        "imagen" : "images/tarjetas/heuristica-9-buen-ejemplo-7.png"
+    },
+    { 
+        "heuristica": 9,
+        "esBuenEjemplo": false,
+        "texto" : "En vez de hacer una página de error 404 customizada que explique claramente el error y facilite una solución, dejar el mensaje por defecto del navegador",
+        "imagen" : "images/tarjetas/heuristica-9-mal-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 10,
+        "esBuenEjemplo": true,
+        "texto" : "Un juego de móvil tiene la ayuda fácil de encontrar, organizada y sucinta",
+        "imagen" : "images/tarjetas/heuristica-10-buen-ejemplo-1.gif"
+    },
+    { 
+        "heuristica": 10,
+        "esBuenEjemplo": true,
+        "texto" : "Una web tiene una sección de ayuda donde se puede buscar información en forma de pregunta",
+        "imagen" : "images/tarjetas/heuristica-10-buen-ejemplo-2.png"
+    },
+    { 
+        "heuristica": 10,
+        "esBuenEjemplo": true,
+        "texto" : "Una web tiene un menú de preguntas frecuentes organizado por temas",
+        "imagen" : "images/tarjetas/heuristica-10-buen-ejemplo-3.png"
+    },
+    { 
+        "heuristica": 10,
+        "esBuenEjemplo": true,
+        "texto" : "Cuando el usuario de una web de vuelos hace clic en el campo \"Destino\", aparece una ayuda contextual diciendo que puede buscar por todos los destinos",
+        "imagen" : "images/tarjetas/heuristica-10-buen-ejemplo-4.png"
+    },
+    { 
+        "heuristica": 10,
+        "esBuenEjemplo": true,
+        "texto" : "La sección de tutoriales de una web combina capturas de pantalla con instrucciones claras por pasos",
+        "imagen" : "images/tarjetas/heuristica-10-buen-ejemplo-5.png"
+    },
+    { 
+        "heuristica": 10,
+        "esBuenEjemplo": false,
+        "texto" : "Una web tiene una sección de ayuda con un límite de 30 caracteres por término de búsqueda",
+        "imagen" : "images/tarjetas/heuristica-10-mal-ejemplo-1.png"
+    },
+    { 
+        "heuristica": 10,
+        "esBuenEjemplo": false,
+        "texto" : "Las sugerencias de búsqueda de una sección de ayuda son categorías genéricas que no coinciden con lo que se ha tecleado",
+        "imagen" : "images/tarjetas/heuristica-10-mal-ejemplo-2.png"
+    }
+]

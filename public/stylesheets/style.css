@@ -1,0 +1,537 @@
+.web {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.contenido {
+  flex: 1;  
+  position: relative;
+}
+
+#home {
+  padding: 20px;
+  text-align: center;
+}
+
+#home img {
+  margin: 20px;
+}
+
+#imagenes-home {
+  display: grid;
+  grid-auto-columns: auto;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+#imagenes-home img:first-child {
+  transform: rotate(2deg);
+  max-width: 100%;
+  margin: auto;
+}
+
+#imagenes-home img:nth-child(2) {
+  transform: rotate(-5deg);
+  max-width: 70%;
+  margin: 15px auto auto auto;
+}
+
+@media only screen and (min-width: 500px) {
+  #imagenes-home img:nth-child(2) {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #imagenes-home {
+    max-width: 90%;
+  }
+
+  #imagenes-home img:nth-child(2) {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  #imagenes-home {
+    grid-auto-columns: 2fr 1fr;
+    max-width: 100%;
+  }
+
+  #imagenes-home img:nth-child(2) {
+    grid-column-start: 2;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #imagenes-home {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #imagenes-home {
+    max-width: 80%;
+  }
+}
+
+#boton-jugar {
+  font-size: x-large;
+  padding: 10px 20px;
+}
+
+/* Móvil: pregunta y HUD apilados */
+#pregunta-HUD {
+  display: grid;
+  grid-auto-columns: auto;
+  max-width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 2px solid grey;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #pregunta-HUD {
+    grid-template-columns: auto auto;
+  }
+
+  #HUD {
+    grid-row-start: 1;
+    grid-column-start: 2;
+  }
+
+  #ayuda {
+    grid-column-start: 1;
+  }
+}
+
+#pregunta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: white;
+  position: relative;
+}
+
+#boton-ayuda {
+  margin-left: 10px;
+}
+
+.boton {
+  min-height: 44px;
+  min-width: 44px;
+  cursor: pointer;
+} 
+
+#pregunta p, #HUD p {
+  margin: 5px;
+}
+
+#HUD {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: baseline;
+  justify-content: flex-end;
+  background-color: white;
+}
+
+.tarjeta {
+  cursor: pointer;
+  /* Display */
+  overflow-wrap: break-word;
+  text-align: center;
+  position: relative;
+
+  /* Box sizing */
+  max-width: 100%;
+  padding: 15px;
+  margin: 10px;
+
+  /* Style */
+  background: whitesmoke;
+  border-radius: 25px;
+  border: 1px solid #919191;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4);
+  transition: all .3s;
+}
+
+.tarjeta img {
+  width: 100%;
+  max-width: 680px;
+  border: 1px solid #919191;
+}
+
+#vidas, #cronometro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 0 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  padding: 0%;
+} 
+
+ body {
+  margin: 0%;
+  min-width: 250px;
+} 
+
+header {
+  text-align: center;
+  display: grid;
+  grid-auto-rows: auto auto;
+  padding: 5px 20px;
+}
+
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 850px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav {
+    align-self: center;
+    overflow-x: hidden;
+  }
+  
+  #div-extra, #nav {
+    width: 350px;
+  }
+}
+
+#nav a {
+  color: #242424;
+  text-decoration: none;
+  font-size: 1.05em;
+  padding: 10px 10px;
+  min-height: 44px;
+  min-width: 44px;
+  margin: 0px 1.5px 0px 1.5px;
+}
+
+#nav a:hover {
+  background-color: #e6e2df;
+  border-radius: 10px;
+}
+
+#nav a.active {
+  font-weight: bold;
+  background-color: #e6e2df;
+  border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#iconos-validacion {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#creditos {
+  color: #242424;
+  font-size: smaller;
+}
+
+#link-sitemap {
+  font-size: smaller;
+  display: block;
+  text-align:center;
+  line-height: 44px;
+  text-align: center;
+  min-width: 44px;
+  min-height: 44px;
+  color: #242424;
+}
+
+
+header img {
+  max-height: 100px;
+}
+
+@media only screen and (min-width: 750px) {
+  header img {
+    max-height: 70px;
+  }
+}
+
+#juego {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background: white;
+}
+
+#tarjetas-botones {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  #tarjetas-botones {
+    max-width: 70%;
+  }
+}
+
+#tarjetas {
+  display: grid; 
+  grid-template-columns: auto; 
+  justify-content: center; 
+  max-width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+@media only screen and (orientation: landscape), only screen and (min-width: 750px) {
+  #tarjetas {
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+}
+
+/***********************
+  Style
+***********************/
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #F9F5F1;
+}
+
+/***********************
+  Animations
+***********************/
+
+.tarjeta.active {
+  background-color: lightgrey;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.8);
+  transform: translateY(4px);
+  transition: all .3s;
+}
+
+.tick-contenedor {
+  width: 100px;
+  height: 100px;
+  z-index: 1;  
+  /* Superpuesto a esquina superior derecha de tarjeta */
+  position: absolute;
+  top: -40px;
+  right: -27px;
+}
+
+.cruz-contenedor {
+  width: 100px;
+  height: 100px;
+  z-index: 2;  
+  /* Superpuesto a esquina superior derecha de tarjeta */
+  position: absolute;
+  top: -40px;
+  right: -27px;
+}
+
+.tick {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  transition: stroke-dashoffset 1s 0.5s ease-out;
+}
+
+.cruz1 {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  transition: stroke-dashoffset 1s 0.8s ease-out;
+}
+
+.cruz2 {
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  transition: stroke-dashoffset 1s 0.5s ease-out;
+}
+
+.tick-contenedor.animar > svg .path, 
+.cruz-contenedor.animar > svg .path {
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
+
+/* Animar corazón roto */
+span.animar {
+  display: inline-block;
+  animation-name: perder-corazon;
+  animation-duration: 1.5s;
+}
+
+@keyframes perder-corazon {
+  from {
+    transform: scale(1,1);
+  }
+
+  50% {
+    transform: scale(5,5);
+  }
+
+  to {
+    transform: scale(1,1);
+  }
+}
+
+/* Ayuda */
+#ayuda {
+  position: relative;
+}
+
+#ayuda {
+  visibility: hidden;
+  padding: 10px 10px;
+  max-height: 0;
+  opacity: 0;
+    /* Animar replegar */
+  transition: all 1s;  
+}
+
+#ayuda.animar {
+  visibility: visible;
+  max-height: 200px;
+  height: auto;
+  opacity: 1;
+  transform: translateY(0);
+  /* Animar desplegar */
+  transition: all 1s;  
+}
+
+#botones {
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 150%;
+  padding: 10px;
+}
+
+#boton-accion {
+  font-size: large;
+  font-weight: bolder;
+  background-color: #5EB320;
+  color: #ffffff;
+  padding: 11px 19px;
+	border-radius: 6px;
+  position: fixed;
+  z-index: 10;
+  bottom: -40px;
+  visibility: hidden;
+  transition: all .5s ease;
+}
+
+#boton-accion.animar {
+  visibility: visible;
+  position: fixed;
+  bottom: 50px;
+  transition: all .5s ease;
+}
+
+#mal-ejemplo.animar:not(:empty) {
+  animation: zoom 2s;
+}
+
+@keyframes zoom {
+  from {
+    font-size: medium;
+  }
+
+  50% {
+    font-size: xx-large;
+  }
+
+  to {
+    font-size: medium;
+  }
+}
+
+#num-pregunta {
+  color: #575757;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+
+audio {
+  display: none;
+}
+
+[id^="etiqueta-correccion-"] {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#fuentes, #longdesc, #error {
+  padding: 20px 20px;
+}
+
+#fuentes ul {
+  line-height: 1.6;
+}
+
+#longdesc img {
+  max-width: 70%;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  #longdesc, #error, #fuentes h1, #fuentes p, #fuentes ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+footer > a {
+  font-size: smaller;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+#contenedor-cargando {
+  text-align: center;
+  flex: 1;
+}
+
+img#cargando {
+  max-width: 100px;
+}
+
+a.longdesc {
+  padding: 0;
+  font-size: x-small;
+}
+
+#lista-heuristicas {
+  line-height: 1.8;
+}

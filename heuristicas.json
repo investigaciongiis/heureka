@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Visibilidad del estado del sistema",
+        "ayuda": "El sistema siempre debe mantener a los usuarios informados de lo que está ocurriendo, reaccionando a sus acciones de forma apropiada y en un tiempo razonable."
+    },
+    {
+        "nombre": "Correspondencia entre el sistema y el mundo real",
+        "ayuda": "El sistema debe hablar el lenguaje del usuario, utilizando palabras, frases y conceptos familiares para él, en lugar de términos orientados al sistema. Sigue las convenciones del mundo real, haciendo que la información aparezca en un orden natural y lógico."
+    },
+    {
+        "nombre": "Control y libertad para el usuario",
+        "ayuda": "Es frecuente que los usuarios escojan funcionalidades por error, por lo que necesitarán una \"salida de emergencia\" claramente marcada para abandonar el estado indeseado sin tener que pasar por un cuadro de diálogo tedioso. Da soporte a deshacer y rehacer."
+    },
+    {
+        "nombre": "Consistencia y estándares",
+        "ayuda": "Los usuarios no deben tener que preguntarse si palabras, situaciones o acciones diferentes significan lo mismo. Sigue las convenciones de la plataforma de desarrollo."
+    },
+    {
+        "nombre": "Prevención de errores",
+        "ayuda": "Aún mejor que los buenos mensajes de error es un diseño que evite que se llegue a producir el error. Elimina las condiciones propensas a errores o bien detéctalas y da al usuario la opción de confirmar la acción antes de realizarla."
+    },
+    {
+        "nombre": "Favorecer el reconocimiento sobre el recuerdo",
+        "ayuda": "Minimiza la carga cognitiva del usuario haciendo visibles los objetos, acciones y opciones. El usuario no debería tener que recordar la información de un cuadro de diálogo en otro posterior. Las instrucciones para usar el sistema deberían ser visibles o fácilmente accesibles cuando sea preciso."
+    },
+    {
+        "nombre": "Flexibilidad y eficiencia de uso",
+        "ayuda": "Los aceleradores (ocultos para el usuario novato) a menudo agilizan la interacción para los usuarios expertos, de tal manera que el sistema puede servir a usuarios con y sin experiencia. Permite que los usuarios adapten a su medida las acciones frecuentes."
+    },
+    {
+        "nombre": "Estética y diseño minimalista",
+        "ayuda": "Los diálogos no deben contener información irrelevante o normalmente innecesaria. Cada unidad extra de información dentro de un diálogo compite con las unidades de información relevantes y disminuye su visibilidad relativa."
+    },
+    {
+        "nombre": "Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de los fallos",
+        "ayuda": "Los mensajes de error deben expresarse con lenguaje llano (sin códigos de error), indicar el problema con precisión y sugerir una solución de forma constructiva."
+    },
+    {
+        "nombre": "Ayuda y documentación",
+        "ayuda": "Aunque es mejor que el sistema se pueda usar sin documentación, puede ser necesario ofrecer ayuda y documentación. Cualquier información de este tipo debe ser fácil de buscar, centrarse en la tarea del usuario, enumerar los pasos a seguir y no ser demasiado extensa."
+    }
+]
