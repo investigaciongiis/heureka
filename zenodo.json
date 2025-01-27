@@ -1,0 +1,552 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2025-01-27T20:21:15.482766+00:00",
+  "custom_fields": {
+    "code:codeRepository": "https://github.com/investigaciongiis/heureka"
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 4,
+    "default_preview": "Heureka - TAM Forms.pdf",
+    "enabled": true,
+    "entries": {
+      "Exam_Control_Experiment group.xlsx": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:6e1aa905c9ca46c394d4bc97c17d96f7",
+        "ext": "xlsx",
+        "id": "591f0851-05f6-48b7-a630-b10b3e6078d1",
+        "key": "Exam_Control_Experiment group.xlsx",
+        "links": {
+          "content": "https://zenodo.org/api/records/14751197/files/Exam_Control_Experiment%20group.xlsx/content",
+          "self": "https://zenodo.org/api/records/14751197/files/Exam_Control_Experiment%20group.xlsx"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 24100,
+        "storage_class": "L"
+      },
+      "Heureka (Responses of students).xlsx": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:e8fd0fbc61a9fbd65966dccdc2801b90",
+        "ext": "xlsx",
+        "id": "0d8e2fe7-4111-4d6b-8e08-f5171b4dbe24",
+        "key": "Heureka (Responses of students).xlsx",
+        "links": {
+          "content": "https://zenodo.org/api/records/14751197/files/Heureka%20(Responses%20of%20students).xlsx/content",
+          "self": "https://zenodo.org/api/records/14751197/files/Heureka%20(Responses%20of%20students).xlsx"
+        },
+        "metadata": {},
+        "mimetype": "application/octet-stream",
+        "size": 11724,
+        "storage_class": "L"
+      },
+      "Heureka - TAM Forms.pdf": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:b286c69a4ee32927ffbe7e7c4fc44a3c",
+        "ext": "pdf",
+        "id": "86559a2e-d5e5-4142-9afb-5bf993b8ce74",
+        "key": "Heureka - TAM Forms.pdf",
+        "links": {
+          "content": "https://zenodo.org/api/records/14751197/files/Heureka%20-%20TAM%20Forms.pdf/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:14751197/canvas/Heureka%20-%20TAM%20Forms.pdf",
+          "iiif_info": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/info.json",
+          "self": "https://zenodo.org/api/records/14751197/files/Heureka%20-%20TAM%20Forms.pdf"
+        },
+        "metadata": {},
+        "mimetype": "application/pdf",
+        "size": 204246,
+        "storage_class": "L"
+      },
+      "README.txt": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:8470092b71a45df248435da4f6c58f69",
+        "ext": "txt",
+        "id": "40d7c454-bcf1-445f-8a84-e572d44baab3",
+        "key": "README.txt",
+        "links": {
+          "content": "https://zenodo.org/api/records/14751197/files/README.txt/content",
+          "self": "https://zenodo.org/api/records/14751197/files/README.txt"
+        },
+        "metadata": {},
+        "mimetype": "text/plain",
+        "size": 1698,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 241768
+  },
+  "id": "14751197",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/14751197/access",
+    "access_grants": "https://zenodo.org/api/records/14751197/access/grants",
+    "access_links": "https://zenodo.org/api/records/14751197/access/links",
+    "access_request": "https://zenodo.org/api/records/14751197/access/request",
+    "access_users": "https://zenodo.org/api/records/14751197/access/users",
+    "archive": "https://zenodo.org/api/records/14751197/files-archive",
+    "archive_media": "https://zenodo.org/api/records/14751197/media-files-archive",
+    "communities": "https://zenodo.org/api/records/14751197/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14751197/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.14751197",
+    "draft": "https://zenodo.org/api/records/14751197/draft",
+    "files": "https://zenodo.org/api/records/14751197/files",
+    "latest": "https://zenodo.org/api/records/14751197/versions/latest",
+    "latest_html": "https://zenodo.org/records/14751197/latest",
+    "media_files": "https://zenodo.org/api/records/14751197/media-files",
+    "parent": "https://zenodo.org/api/records/14751196",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14751196",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14751196",
+    "parent_html": "https://zenodo.org/records/14751196",
+    "requests": "https://zenodo.org/api/records/14751197/requests",
+    "reserve_doi": "https://zenodo.org/api/records/14751197/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/14751197",
+    "self_doi": "https://doi.org/10.5281/zenodo.14751197",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14751197",
+    "self_html": "https://zenodo.org/records/14751197",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14751197/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14751197/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/full/^10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/full/^100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/full/^1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/full/^250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/full/^50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:14751197:Heureka%20-%20TAM%20Forms.pdf/full/^750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/14751197/versions"
+  },
+  "media_files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "Heureka - TAM Forms.pdf.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "25555e9b-1047-41ea-861b-c7aba5c0006c",
+        "key": "Heureka - TAM Forms.pdf.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/14751197/files/Heureka%20-%20TAM%20Forms.pdf.ptif/content",
+          "self": "https://zenodo.org/api/records/14751197/files/Heureka%20-%20TAM%20Forms.pdf.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "86559a2e-d5e5-4142-9afb-5bf993b8ce74",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "creators": [
+      {
+        "affiliations": [
+          {
+            "name": "University of Murcia"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Sobrino Duque",
+          "given_name": "Raimel",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-6912-1172",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Sobrino Duque, Raimel",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Murcia"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Martinez Rojo",
+          "given_name": "Noelia",
+          "name": "Martinez Rojo, Noelia",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Murcia"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Carrillo de Gea",
+          "given_name": "Juan Manuel",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-3320-622X",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Carrillo de Gea, Juan Manuel",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Murcia"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "L\u00f3pez Jim\u00e9nez",
+          "given_name": "Juan Jos\u00e9",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-5244-2773",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "L\u00f3pez Jim\u00e9nez, Juan Jos\u00e9",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Murcia"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Nicol\u00e1s Ros",
+          "given_name": "Joaqu\u00edn",
+          "identifiers": [
+            {
+              "identifier": "0000-0003-1760-3804",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Nicol\u00e1s Ros, Joaqu\u00edn",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "University of Murcia"
+          }
+        ],
+        "person_or_org": {
+          "family_name": "Fern\u00e1ndez-Alem\u00e1n",
+          "given_name": "Jos\u00e9 Luis",
+          "identifiers": [
+            {
+              "identifier": "0000-0002-0176-450X",
+              "scheme": "orcid"
+            }
+          ],
+          "name": "Fern\u00e1ndez-Alem\u00e1n, Jos\u00e9 Luis",
+          "type": "personal"
+        },
+        "role": {
+          "id": "researcher",
+          "title": {
+            "de": "WissenschaftlerIn",
+            "en": "Researcher"
+          }
+        }
+      }
+    ],
+    "description": "<p>This dataset contains data from an experiment realized with Heureka. The validation of the Heureka tool was realized in the academic year 2020/2021, a total of 66 students were enrolled on \"User Interfaces\", a 4th year, first-term course on the BSc in Computer Engineering at the University of Murcia. Students have to complete a total of 6 ECTS credits, which are distributed into 2 h/week of lectures and 1 h 40 min/week of skills practice during a period of 15 weeks. The objective of this subject is to introduce students to HCI issues, including the development and auditing of usable and accessible user interfaces, paying special attention to the application of standards and style guides in web, mobile and desktop computer applications. The two key terms on this course are usability and accessibility.</p>\n<p>This document describes the files that were used during the validation process. The data is presented in two Excel files and a pdf file:</p>\n<p>Heureka (Responses of students).xlsx: Contains the answers of student afters that it responds to perception about Heureka. Also, it documents show Means, standard deviations, and medians of students' perceptions.&nbsp;<br>Heureka - TAM Forms.pdf: Contains the TAM Questionnaire that was applied to evaluate the perception of students about Heureka.&nbsp;<br>Exam_Control_Experiment group.xlsx: Contains the evaluations of exam obtained by Control and Experiment group that is to say the scores obtained by students in the exam. The objective of this experiment was comparing the two groups.&nbsp;</p>\n<p>Contact Information<br>For further information or inquiries about this dataset, please contact [Raimel Sobrino Duque] at [raimel.sobrino@um.es].</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>",
+    "funding": [
+      {
+        "award": {
+          "identifiers": [
+            {
+              "identifier": "https://portalinvestigacion.um.es/proyectos/587265/detalle",
+              "scheme": "url"
+            }
+          ],
+          "number": "PID2021-122554OB-C32",
+          "title": {
+            "en": "OASSIS-UMU: hacia Organizaciones Software M\u00e1s Sostenibles: Un Enfoque Hol\u00edstico para Promover la Sostenibilidad Econ\u00f3mica, Humana y Medioambiental"
+          }
+        },
+        "funder": {
+          "id": "003x0zc53",
+          "name": "Agencia Estatal de Investigaci\u00f3n"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "id": "eng",
+        "title": {
+          "en": "English"
+        }
+      }
+    ],
+    "publication_date": "2025-01-27",
+    "publisher": "Zenodo",
+    "references": [
+      {
+        "reference": "Raimel Sobrino-Duque, Noelia Mart\u00ednez-Rojo, Juan Manuel Carrillo de Gea, Juan Jos\u00e9 L\u00f3pez-Jim\u00e9nez, Joaqu\u00edn Nicol\u00e1s, Jos\u00e9 Luis Fern\u00e1ndez-Alem\u00e1n: Evaluating a gamification proposal for learning usability heuristics: Heureka. Int. J. Hum. Comput. Stud. 161: 102774 (2022)"
+      }
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1016/j.ijhcs.2022.102774",
+        "relation_type": {
+          "id": "issupplementto",
+          "title": {
+            "de": "Erg\u00e4nzt",
+            "en": "Is supplement to"
+          }
+        },
+        "resource_type": {
+          "id": "publication-article",
+          "title": {
+            "de": "Zeitschriftenartikel",
+            "en": "Journal article"
+          }
+        },
+        "scheme": "doi"
+      }
+    ],
+    "resource_type": {
+      "id": "dataset",
+      "title": {
+        "de": "Datensatz",
+        "en": "Dataset"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Usability"
+      },
+      {
+        "subject": "Nielsen heuristics"
+      },
+      {
+        "id": "mesh:D000090208",
+        "scheme": "MeSH",
+        "subject": "Gamification"
+      },
+      {
+        "subject": "Student experiment"
+      }
+    ],
+    "title": "Evaluating a gamification proposal for learning usability heuristics: Heureka (DATASET)",
+    "version": "1.0.0"
+  },
+  "parent": {
+    "access": {
+      "grants": [],
+      "links": [],
+      "owned_by": {
+        "user": "1254337"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {
+      "default": "3059b0f4-cf36-4c50-9da6-34fef36b0b59",
+      "entries": [
+        {
+          "access": {
+            "member_policy": "open",
+            "members_visibility": "public",
+            "record_submission_policy": "open",
+            "review_policy": "members",
+            "visibility": "public"
+          },
+          "children": {
+            "allow": false
+          },
+          "created": "2025-01-25T18:54:09.165036+00:00",
+          "custom_fields": {
+            "subjects": [
+              {
+                "id": "mesh:D003199"
+              },
+              {
+                "id": "mesh:D012984"
+              }
+            ]
+          },
+          "deletion_status": {
+            "is_deleted": false,
+            "status": "P"
+          },
+          "id": "3059b0f4-cf36-4c50-9da6-34fef36b0b59",
+          "links": {},
+          "metadata": {
+            "description": "OASSIS-Umu: Towards More Sustainable Software Organizations: A Holistic Approach to Promote Economic, Human, and Environmental Sustainability",
+            "funding": [
+              {
+                "award": {
+                  "identifiers": [
+                    {
+                      "identifier": "https://portalinvestigacion.um.es/proyectos/587265/detalle",
+                      "scheme": "url"
+                    }
+                  ],
+                  "number": "PID2021-122554OB-C32",
+                  "title": {
+                    "en": "OASSIS_UMU: Towards More Sustainable Software Organizations: A Holistic Approach to Promote Economic, Human, and Environmental Sustainability"
+                  }
+                },
+                "funder": {
+                  "id": "003x0zc53"
+                }
+              }
+            ],
+            "organizations": [
+              {
+                "id": "03p3aeb86"
+              }
+            ],
+            "title": "OASSIS_UMU",
+            "type": {
+              "id": "project"
+            },
+            "website": "https://portalinvestigacion.um.es/proyectos/587265/detalle"
+          },
+          "revision_id": 5,
+          "slug": "pid2021-122554ob-c32",
+          "updated": "2025-01-25T19:12:18.866578+00:00"
+        }
+      ],
+      "ids": [
+        "3059b0f4-cf36-4c50-9da6-34fef36b0b59"
+      ]
+    },
+    "id": "14751196",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.14751196",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.14751197",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:14751197",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 3,
+  "stats": {
+    "all_versions": {
+      "data_volume": 1058752.0,
+      "downloads": 8,
+      "unique_downloads": 6,
+      "unique_views": 4,
+      "views": 6
+    },
+    "this_version": {
+      "data_volume": 1058752.0,
+      "downloads": 8,
+      "unique_downloads": 6,
+      "unique_views": 4,
+      "views": 6
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2025-01-27T20:21:16.118646+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true,
+    "is_latest_draft": true
+  }
+}
